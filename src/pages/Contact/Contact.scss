@@ -1,0 +1,94 @@
+.contact{
+
+  span{
+    @include highlightedText;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    color: $contrast-color;
+
+    a{
+      color: $contrast-color;
+    }
+  }
+
+  &__email-cta{
+    @include cta;
+    margin-right: 10px;
+    svg{
+      fill: $contrast-color;
+      width: 25px;
+      margin-left: 10px;
+      padding-top: -30px;
+    }
+  }
+  &__whats-cta{
+    @include cta;
+    align-items: center;
+    border: 2px solid chartreuse;
+    color: chartreuse;
+    &:hover {
+      background-color: chartreuse;
+    }
+    svg{
+      fill: chartreuse;
+      width: 25px;
+      margin-left: 10px;
+    }
+  }
+
+  &__content{
+    @include wrapper;
+    text-align: center;
+  }
+  
+  &__text{
+    h2{
+      font-family: 25px;
+      margin-bottom: 15px;
+    }
+
+    p{
+      font-size: 19px;
+      max-width: 500px;
+      margin: 10px auto;
+    }
+
+    font-family: $secondary-font;
+  }
+
+  &__media{
+    margin-block: 25px;
+
+    a{
+      width: 30px;
+      height: 30px;
+      margin: 0 9px;
+      display: inline-grid;
+      place-content: center;
+    }
+    img{
+      width: inherit;
+    }
+
+    &--github{
+      display: inline-block;
+      background-color: $default-color;
+      border-radius: 50%;
+    }
+  }
+
+  @media screen and (min-width: 500px){
+    &__text{
+      h2{
+        font-family: 30px;
+      }
+  
+      p{
+        font-size: 22px;
+      }
+    }
+  }
+}

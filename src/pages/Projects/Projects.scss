@@ -1,0 +1,24 @@
+.projects{
+
+  &__cta{
+    @include cta;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+
+  &__wrapper{
+    @include wrapper;
+    
+    & > h2{
+      font-family: $secondary-font;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.not-found {
+  &__wrapper {
+    @include wrapper;
+    font-family: $terceary-font;
+  }
+  h2 {
+    color: $contrast-color;
+    font-size: 60px;
+
+    @media screen and (min-width: 500px) {
+      font-size: 23px;
+    }
+  }
+  p {
+   
+    color: $default_color;
+    font-size: 36px;
+  }
+  @media screen and (min-width: 600px) {
+    font-size: 18px;
+  }
+}

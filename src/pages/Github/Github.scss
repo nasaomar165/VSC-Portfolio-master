@@ -1,0 +1,80 @@
+.github{
+
+  &__cta{
+    @include cta;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    letter-spacing: 0.5px;
+    padding: 12px 24px;
+  }
+
+  &__wrapper{
+    @include wrapper;
+  }
+
+  &__content{
+    @include grid;
+  }
+
+  &__header{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    cursor: pointer;
+    color: $default-color;
+    text-decoration: none;
+
+    &--bar{
+      position: absolute;
+      bottom: -9px;
+      width: 100%;
+      left: 0;
+      border-color: transparent;
+      transition: border-color 0.5s;
+    }
+    
+    &:hover hr{
+      border-color: $contrast-color;
+    }
+
+    & span{
+      font-family: $terceary-font;
+    }
+
+    &--profile{
+      display: flex;
+      align-items: center;
+      border-right: 1px solid $default-color;
+      min-width: 222px;
+      padding-block: 5px;
+      margin-right: 20px;
+    }
+
+    &--profile img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+
+    &--profile h2{
+      font-family: $secondary-font;
+      margin-bottom: 5px;
+    }
+
+    &--company{
+      display: flex;
+      align-items: center;
+      padding-block: 10px;
+    }
+
+    &--company svg{
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      fill: $default-color;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.repo-card{
+  @include card;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &__wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__body{
+    font-family: $secondary-font;
+    margin-bottom: 30px;
+
+    h2{
+      margin-bottom: 10px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+  }
+
+  &__tags{
+    display: flex;
+    flex-wrap: wrap;
+
+    span{
+      @include highlightedText;
+    }
+  }
+}
