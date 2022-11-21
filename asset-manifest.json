@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c33de12d.css",
+    "main.js": "/static/js/main.a74f544d.js",
+    "static/media/haby.jpg": "/static/media/haby.8fba86f1d41478f4d0d4.jpg",
+    "static/media/khodar.png": "/static/media/khodar.48b27048e35eaa0222c3.png",
+    "static/media/education.png": "/static/media/education.5d5d9d03b2d52985e196.png",
+    "static/media/avatar7.jpg": "/static/media/avatar7.617bd8fc8ccb8d73dd7c.jpg",
+    "static/media/knban.png": "/static/media/knban.7c5ca8b5e31e98e3e6b6.png",
+    "static/media/contact.png": "/static/media/contact.7492efb8dc03ecf9bb6a.png",
+    "static/media/user.png": "/static/media/user.b2aa712e1ce4a3577e78.png",
+    "static/media/github.png": "/static/media/github.dc1f3773b1c9f48b1721.png",
+    "static/media/root.png": "/static/media/root.e338eb4432da866144a4.png",
+    "static/media/settings.png": "/static/media/settings.ee17c6ce9bb95cda83f7.png",
+    "static/media/nopage.png": "/static/media/nopage.ed39be96b39850158472.png",
+    "static/media/linkedin.png": "/static/media/linkedin.e587d737f966bd23654e.png",
+    "static/media/stackoverflow.png": "/static/media/stackoverflow.0123b8df35f2e7d20bc8.png",
+    "static/media/blog.png": "/static/media/blog.e81484c11e2f7cf5cb30.png",
+    "static/media/404.png": "/static/media/404.a11de89a8edd8cc76886.png",
+    "static/media/twitter.png": "/static/media/twitter.f3d1ee4c2a2a5c0e20a9.png",
+    "static/media/projects.png": "/static/media/projects.bd91691a8c1e0a81dc62.png",
+    "index.html": "/index.html",
+    "static/media/double-arrow.svg": "/static/media/double-arrow.ba28dfeba6ad70c067ebe7b61ee0a094.svg",
+    "main.c33de12d.css.map": "/static/css/main.c33de12d.css.map",
+    "main.a74f544d.js.map": "/static/js/main.a74f544d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c33de12d.css",
+    "static/js/main.a74f544d.js"
+  ]
+}
