@@ -1,7 +1,7 @@
 import Kanban from "./assets/images/knban.png";
 import Khodar from "./assets/images/khodar.png";
 import Haby from "./assets/images/haby.jpg";
-
+import Powertrips from "./assets/images/powertrips.png"
 
 const data = {
   name: "Omar Ibrahim",
@@ -33,6 +33,20 @@ const data = {
     {
       id: 0,
       status: "Featured Project",
+      title: "Powertrips",
+      achievements: [
+        "Build and deploy Travel Agency Landing Page",
+        "Use of Meta Services through Messenger and Whatsapp API",
+        "Dynamic routing Using PHP and will defined UI/UX",
+      ],
+      technologies: ["HTML", "PHP", "Javascript", "Sass", "CSS"],
+      repo: "",
+      online: "http://powertrips.rf.gd/",
+      img: Powertrips,
+    },
+    {
+      id: 1,
+      status: "Featured Project",
       title: "Haby Furniture",
       achievements: [
         "Build and deploy a Furniture Store ",
@@ -45,7 +59,7 @@ const data = {
       img: Haby,
     },
     {
-      id: 1,
+      id: 2,
       status: "Featured Project",
       title: "Khodar.com",
       achievements: [
@@ -59,7 +73,7 @@ const data = {
       img: Khodar,
     },
     {
-      id: 2,
+      id: 3,
       status: "Personal Project",
       title: "Flixkan",
       achievements: [
