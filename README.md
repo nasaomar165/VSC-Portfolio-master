@@ -3,6 +3,4 @@ I enjoy developing web application and even more when those apps help people som
 
 ## About me
 I am a computer Engineer with experience working with Scrum methodology, React.js, TypeScript, CSS preprocessors such as Sass, Html, Git and GitHub and command-line interface.
-#� �V�S�C�-�P�o�r�t�f�o�l�i�o�
-�
-�
+# VSC-Portfolio
